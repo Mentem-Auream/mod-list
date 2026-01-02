@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "latest_manager_version": "1.0.0",
+    "bepinex_url": "https://github.com/BepInEx/BepInEx/releases/download/v6.0.0-pre.1/BepInEx_UnityIL2CPP_x64_6.0.0-pre.1.zip",
+    "reactor_url": "https://github.com/NuclearPowered/Reactor/releases/download/2.1.0/Reactor.dll"
+  },
+  "mods": [
+    {
+      "id": "tohe",
+      "name": "Town of Host: Enhanced",
+      "version": "1.2.0",
+      "author": "TOHE Team",
+      "description": "Zaawansowane role i modyfikacje hosta.",
+      "category": "HOST",
+      "download_url": "https://link-do-tohe.dll",
+      "dependencies": ["reactor"],
+      "conflicts": ["tou_mira"],
+      "install_method": "plugin_dll" 
+    },
+    {
+      "id": "level_impostor",
+      "name": "Level Impostor",
+      "description": "Edytor map i niestandardowe mapy.",
+      "category": "LOCAL",
+      "download_url": "https://link-do-li.dll",
+      "install_method": "plugin_dll"
+    }
+  ]
+}
