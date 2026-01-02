@@ -1,29 +1,31 @@
 {
-  "meta": {
-    "latest_manager_version": "1.0.0",
-    "bepinex_url": "https://github.com/BepInEx/BepInEx/releases/download/v6.0.0-pre.1/BepInEx_UnityIL2CPP_x64_6.0.0-pre.1.zip",
-    "reactor_url": "https://github.com/NuclearPowered/Reactor/releases/download/2.1.0/Reactor.dll"
-  },
-  "mods": [
-    {
-      "id": "tohe",
-      "name": "Town of Host: Enhanced",
-      "version": "1.2.0",
-      "author": "TOHE Team",
-      "description": "Zaawansowane role i modyfikacje hosta.",
-      "category": "HOST",
-      "download_url": "https://link-do-tohe.dll",
-      "dependencies": ["reactor"],
-      "conflicts": ["tou_mira"],
-      "install_method": "plugin_dll" 
-    },
-    {
-      "id": "level_impostor",
-      "name": "Level Impostor",
-      "description": "Edytor map i niestandardowe mapy.",
-      "category": "LOCAL",
-      "download_url": "https://link-do-li.dll",
-      "install_method": "plugin_dll"
-    }
-  ]
+    "mods": [
+        {
+            "id": "mira_tou",
+            "name": "Town of Us Mira",
+            "desc": "Zestaw nowych ról i mechanik dla mapy Mira. Wymaga BepInEx.",
+            "files": {
+                "https://amongus.igornowakowski.pl/files/mods/mira/TownOfUsMira.dll": "TownOfUsMira.dll",
+                "https://amongus.igornowakowski.pl/files/mods/mira/touhats.bundle": "touhats.bundle",
+                "https://amongus.igornowakowski.pl/files/mods/mira/Reactor.dll": "Reactor.dll"
+            }
+        },
+        {
+            "id": "li_mod",
+            "name": "Level Impostor",
+            "desc": "Dodaje system postępu, poziomy oraz unikalne umiejętności dla Impostorów.",
+            "files": {
+                "https://amongus.igornowakowski.pl/files/mods/levelimpostor/LevelImpostor.dll": "LevelImpostor.dll",
+                "https://amongus.igornowakowski.pl/files/mods/levelimpostor/Reactor.dll": "Reactor.dll"
+            }
+        },
+        {
+            "id": "tohe",
+            "name": "Town of Host Edited",
+            "desc": "Potężny mod typu Host-Only. Tylko host musi go posiadać, aby inni mogli grać.",
+            "files": {
+                "https://amongus.igornowakowski.pl/files/mods/TOHE.dll": "TOHE.dll"
+            }
+        }
+    ]
 }
