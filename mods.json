@@ -7,7 +7,10 @@
             "files": {
                 "https://amongus.igornowakowski.pl/files/mods/mira/TownOfUsMira.dll": "TownOfUsMira.dll",
                 "https://amongus.igornowakowski.pl/files/mods/mira/touhats.bundle": "touhats.bundle",
-                "https://amongus.igornowakowski.pl/files/mods/mira/Reactor.dll": "Reactor.dll"
+                "https://amongus.igornowakowski.pl/files/mods/mira/touhats.catalog": "touhats.catalog",
+                "https://amongus.igornowakowski.pl/files/mods/mira/Reactor.dll": "Reactor.dll",
+                "https://amongus.igornowakowski.pl/files/mods/mira/Mini.RegionInstall.dll": "Mini.RegionInstall.dll",
+                "https://amongus.igornowakowski.pl/files/mods/mira/MiraAPI.dll": "MiraAPI.dll"
             }
         },
         {
@@ -25,6 +28,14 @@
             "desc": "Potężny mod typu Host-Only. Tylko host musi go posiadać, aby inni mogli grać.",
             "files": {
                 "https://amongus.igornowakowski.pl/files/mods/TOHE.dll": "TOHE.dll"
+            }
+        },
+        {
+            "id": "aunlocker",
+            "name": "Among Unlocker",
+            "desc": "Dodatek odblokowujący zawartość w grze.",
+            "files": {
+                "https://amongus.igornowakowski.pl/files/mods/AUnlocker.dll": "AUnlocker.dll"
             }
         }
     ]
